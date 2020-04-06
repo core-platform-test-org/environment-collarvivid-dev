@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:collarvivid/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:collarvivid/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:collarvivid/prow:hmacToken
+segmentWriteKey: vault:collarvivid:segmentWriteKey
